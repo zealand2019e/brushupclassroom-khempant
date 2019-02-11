@@ -19,8 +19,13 @@ namespace ClassRoom
             Navn = navn;
             FødselsMåned = måned;
             FødselsDag = dag;
-
         }
+
+        public override string ToString()
+        {
+            return $"Navn: {Navn} , måned: {FødselsMåned}, dag: {FødselsDag}";
+        }
+
 
     }
 }

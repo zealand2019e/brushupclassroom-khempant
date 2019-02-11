@@ -18,7 +18,15 @@ namespace ClassRoom
             klasserum.Klasseliste.Add(new studerende("Grete", 3, 20));
             klasserum.Klasseliste.Add(new studerende("Bo", 10, 1));
 
-
+            //opgave 4, udskriv oplysningerne
+            Console.WriteLine($"Klassenavn : {klasserum.KlasseNavn}");
+            Console.WriteLine($"Semesterstart : {klasserum.SemesterStart}");
+            foreach (var studerende in klasserum.Klasseliste)
+            {
+                //Obs. jeg bruger en overide på tostring() metoden i studerende klasse
+                //for at udskrive disse oplysninger
+                Console.WriteLine(studerende.ToString());
+            }
 
         }
     }
