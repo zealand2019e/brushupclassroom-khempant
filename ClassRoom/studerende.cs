@@ -10,7 +10,20 @@ namespace ClassRoom
     {
         public string Navn { get; set; }
 
-        public int FødselsMåned { get; set; }
+        //public int FødselsMåned { get; set; }
+
+        private int _fødselsMåned;
+
+        public int FødselsMåned
+        {
+            get { return _fødselsMåned; }
+            set {
+                if (value >= 1 && value <= 12)
+                  _fødselsMåned = value;
+                else
+                  throw new ArgumentException($"Værdien skal ligge i intervallet 1-12, du skrev {value}");
+            }
+        }
 
         public int FødselsDag { get; set; }
 
