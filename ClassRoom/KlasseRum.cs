@@ -19,5 +19,22 @@ namespace ClassRoom
             Klasseliste = new List<studerende>();
             SemesterStart = new DateTime();
         }
+
+        public void HvilkenÅrstid()
+        {
+            var resultliste  = 
+                this.Klasseliste.GroupBy(x => x.Årstid())
+                .Select(aarstidGroup => new {
+                    aarstid = aarstidGroup.Key,
+                    countAarstid = aarstidGroup.Count()
+                });
+
+            foreach (var item in resultliste)
+            {
+                Console.WriteLine($"Årstid: {item.aarstid} antal: {item.countAarstid} ");
+
+            }
+        }
+
     }
 }
