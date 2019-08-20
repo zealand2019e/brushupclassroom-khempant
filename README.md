@@ -1,7 +1,7 @@
 
 # ClassRoom assignment (findes på dansk længere nede)
 
-** Purpose: to refresh the concepts of class, properties, constructor, private/public, if/switch, git **
+**Purpose: to refresh the concepts of class, properties, constructor, private/public, if/switch, git**
 
 Via the link from Github. Clone the "project" from GitHub to your own machine
 
@@ -17,7 +17,7 @@ Add a class (public) "Student", it must contain three properties. These three pr
 
 You also must have a constructor that takes three parameters so you can put your properties.
 
-Remember to commit and push to the Git repo (GitHub). : octocat:
+Remember to commit and push to the Git repo (GitHub). :octocat:
 
 ## Task 2:
 Add a new class of "ClassRoom", with the following properties. 
@@ -28,7 +28,7 @@ Add a new class of "ClassRoom", with the following properties.
 
 Create a default constructor.
 
-Remember to commit and push to the Git repo (GitHub). : octocat:
+Remember to commit and push to the Git repo (GitHub). :octocat:
 
  
 
@@ -43,7 +43,7 @@ Beginning of the semester: 26-8-2019
 
 Add yourself and those you sit next to in the list of students
 
-Remember to commit and push to the Git repo (GitHub). : octocat:
+Remember to commit and push to the Git repo (GitHub). :octocat:
 
 
 ## Task 4:
@@ -56,17 +56,12 @@ There must now be implemented a method "season" the returntype is a string. The 
 Consider how this method should be.
 
  
-birth month | Output time of the year
-
+birth month  | Output time of the year
 -------------|--------------
-
-12, 1, 2 | Winter
-
-3, 4, 5 | Spring
-
-6, 7, 8 | Summer
-
-9, 10, 11 | Autumn
+12, 1, 2     | Winter
+3, 4, 5      | Spring
+6, 7, 8      | Summer
+9, 10, 11    | Autumn
 
 
 ## Task 6:
@@ -81,7 +76,7 @@ hint. see if you can code it via a Linq statement
 Call the method.
 
  
-Remember to commit and push to the Git repo (GitHub). : octocat:
+Remember to commit and push to the Git repo (GitHub). :octocat:
 
  
 
@@ -111,7 +106,7 @@ Tilføj en klasse (public) “Studerende”, den skal indeholde tre properties. 
 * int fødselsdag
 
 Du skal også have en constructor som tager tre parametre så du kan få sat dine properties.
-Husk at comitte og pushe til Git repo(GitHub). :octocat:
+Husk at comitte og pushe til dit Git repo(GitHub). :octocat:
 
 
 ## Opgave 2:
@@ -124,7 +119,7 @@ Tilføj en ny klasse “KlasseRum”, med følgende properties.
 Opret en default constructor.
 
 
-Husk at comitte og pushe til Git repo (GitHub). :octocat:
+Husk at comitte og pushe til dit Git repo (GitHub). :octocat:
 
 
 ## Opgave 3:
@@ -140,7 +135,7 @@ SemesterStart: 4-9-2018
 Tilføj dig selv og dem du sidder ved siden af i listen over studerende
 
 
-Husk at comitte og pushe til Git repo (GitHub). :octocat:
+Husk at comitte og pushe til dit Git repo (GitHub). :octocat:
 
 
 ## Opgave 4:
@@ -168,7 +163,7 @@ hint. se om du kan kode det via et linq statement
 
 Kald metoden.
 
-Husk at comitte og pushe til Git repo (GitHub). :octocat:
+Husk at comitte og pushe til dit Git repo (GitHub). :octocat:
 
 
 ## Ekstra: Opgave 7
