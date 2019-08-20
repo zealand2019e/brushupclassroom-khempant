@@ -1,5 +1,5 @@
 
-# ClassRoom task (in danish below)
+# ClassRoom assignment (findes på dansk længere nede)
 
 ** Purpose: to refresh the concepts of class, properties, constructor, private/public, if/switch, git **
 
