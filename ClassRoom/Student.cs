@@ -33,6 +33,26 @@ namespace ClassRoom
             BirthDay = bday;
             BirthMonth = bmonth;
         }
-        
+        public string Season()
+        {
+            if (BirthMonth == 1 || BirthMonth == 12 || BirthMonth == 2)
+            {
+                return "Winter";
+            }
+            if (BirthMonth == 3 || BirthMonth == 4 || BirthMonth == 5)
+            {
+                return "Spring";
+            }
+            if (BirthMonth == 6 || BirthMonth == 7 || BirthMonth == 8)
+            {
+                return "Summer";
+            }
+            if (BirthMonth == 9 || BirthMonth == 10 || BirthMonth == 11)
+            {
+                return "Autumn";
+            }
+            throw new Exception("birth is not possible");
+
+        }
     }
 }
